@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/test?useSSL=false&characterEncoding=UTF-8
     username: root
-    password: root
+    password: Wjsgusals2@
 
   jpa:
     database: mysql
@@ -14,4 +14,4 @@ spring:
     generate-ddl: true
     show-sql: true
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: create
